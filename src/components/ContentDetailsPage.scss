@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
+@media (min-width: 768px) {
+  .wave-image {
+    img {
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      margin-top: 10vh;
+    }
+  }
+
+  .shape-circle {
+    background-color: #89d0ca;
+    height: 30vw;
+    width: 30vw;
+    border-radius: 50%;
+    margin-top: 20vh;
+    margin-left: 8vw;
+  }
+
+  .image-covid-vaccine > img {
+    border-radius: 50%;
+    width: 30vw;
+    height: 30vw;
+    margin-top: -50vh;
+    margin-left: 5vh;
+  }
+
+  .image-covid-vaccine {
+    margin-top: -20vh;
+  }
+
+  .content-layout {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+  }
+
+  .text-content {
+    margin-left: 4vw;
+  }
+
+  .image-content {
+    width: 80vw;
+    margin-left: 4vw;
+  }
+}
+.text-content {
+  margin-right: 8vw;
+  margin-top: 10vh;
+  h3 {
+    font-size: 1.25em;
+    color: #4e6765;
+    font-family: Raleway, sans-serif;
+  }
+  h2 {
+    font-size: 2em;
+    font-weight: 400;
+    span {
+      font-weight: 600;
+    }
+    margin-bottom: 4vh;
+  }
+  p {
+    margin-top: 0;
+    font-family: Raleway, sans-serif;
+    font-size: 1.25em;
+    color: #4e6765;
+    font-weight: 600;
+    margin-bottom: 4vh;
+  }
+  a {
+    text-decoration: none;
+    border: 1px solid rgb(15, 15, 15);
+    font-size: 1.5em;
+    padding-left: 2vh;
+    padding-right: 2vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    background-color: #292e33;
+    color: #ffffff;
+  }
+}
+
+@media (max-width: 768px) {
+  .content-layout {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .image-covid-vaccine > img {
+    width: 40vw;
+    height: 40vw;
+    border-radius: 50%;
+    margin-left: 20vw;
+    margin-top: -20vh;
+    margin-bottom: 50px;
+  }
+
+  .shape-circle {
+    background-color: #89d0ca;
+    height: 40vw;
+    width: 40vw;
+    border-radius: 50%;
+    margin-left: 30vw;
+    margin-top: 10vh;
+  }
+
+  .text-content {
+    margin-top: 10vh;
+  }
+  .wave-image > img {
+    width: 40vw;
+    margin-left: 4vw;
+  }
+}

@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato&display=swap");
+
+.body-content-1 {
+  width: 100%;
+  height: 800px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../img/young-asia-girl-wear.jpg);
+}
+
+.body-content-1 > h2 {
+  color: rgb(30, 31, 29);
+}
+
+.container-body-content {
+  position: absolute;
+  text-align: center;
+  width: 800px;
+  margin-right: 200px;
+  margin-top: 150px;
+  margin-left: 100px;
+  h2 {
+    color: rgb(113, 53, 141);
+    font-size: 40px;
+    margin: 0;
+    font-family: "Lato", sans-serif;
+  }
+  h1 {
+    font-size: 60px;
+    font-family: "Abril Fatface", cursive;
+  }
+
+  a {
+    border: 1px solid rgb(87, 85, 94);
+    width: 200px;
+    height: 40px;
+    margin-left: 50px;
+    font-size: 25px;
+    text-decoration: none;
+    background-color: rgb(31, 28, 28);
+  }
+  P {
+    font-size: 18px;
+    padding-left: 30px;
+  }
+}

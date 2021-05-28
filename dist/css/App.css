@@ -1,0 +1,6 @@
+.chart-container {
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  background-color: #a0dce0;
+}

@@ -1,0 +1,27 @@
+.bar-chart-1 {
+  width: 50vw;
+  height: 60vh;
+  background-color: #ffffff;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  margin-bottom: 2vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 1vh;
+}
+.bar-chart-1 h3 {
+  width: 10vw;
+  color: #131212;
+  text-align: center;
+  margin-left: 20vw;
+}
+.bar-chart-1 div {
+  color: aqua;
+}
+
+@media (min-width: 768px) {
+  .bar-chart-1 {
+    height: 120vh;
+  }
+}

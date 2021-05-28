@@ -1,0 +1,21 @@
+select {
+  background-color: rgba(211, 201, 201, 0.15);
+  backdrop-filter: blur(5px);
+  height: 30px;
+  border-top: 10px;
+  border-radius: 50px;
+  text-align-last: center;
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  select {
+    width: 40vw;
+  }
+}
+
+@media (min-width: 768px) {
+  select {
+    width: 20vw;
+  }
+}

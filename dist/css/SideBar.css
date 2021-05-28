@@ -1,0 +1,52 @@
+.side-bar {
+  width: 200px;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(6, 1, 10, 0.8);
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+  transition: 0.3s;
+  left: 0;
+  z-index: 1;
+}
+
+.side-bar > div {
+  height: 100vh;
+}
+
+.side-bar-hide {
+  border: 1px solid #c00e0e;
+  width: 200px;
+  height: 865px;
+  position: absolute;
+  background-color: rgba(6, 1, 10, 0.8);
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+  transition: 0.3s;
+  left: -100%;
+  overflow: hidden;
+}
+
+.side-bar-show {
+  border: 1px solid #c00e0e;
+  width: 200px;
+  height: 865px;
+  position: absolute;
+  background-color: rgba(6, 1, 10, 0.8);
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+  transition: 0.3s;
+  left: 0;
+}
+
+.side-bar-content {
+  padding-left: 30px;
+  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.side-bar-content a {
+  padding-top: 30px;
+  text-decoration: none;
+  color: cornsilk;
+}

@@ -1,0 +1,35 @@
+@media (min-width: 768px) {
+  .container-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px;
+  }
+
+  .box {
+    flex-basis: 27%;
+  }
+
+  .container-4 {
+    width: 600px;
+  }
+}
+@media (max-width: 768px) {
+  .container-3 {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.container-3 {
+  background-color: #a0dce0;
+  height: 100%;
+  /*Scale Image*/
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.box > h2 {
+  margin-left: 600px;
+  width: 400px;
+}

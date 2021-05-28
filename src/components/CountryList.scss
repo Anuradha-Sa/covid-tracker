@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Open+Sans:wght@300&display=swap");
+
+@media (min-width: 768px) {
+  .country-flag {
+    img {
+      width: 10vw;
+      height: 15vh;
+    }
+  }
+  .container-1 {
+    width: 20vw;
+    margin-top: 1vh;
+  }
+}
+
+.container-1 {
+  display: flex;
+  flex-direction: row;
+
+  background-color: #f2f2f2;
+}
+
+.index-number {
+  background-color: #89d0ca;
+  width: 6vw;
+  height: 6vw;
+  border-radius: 50%;
+  margin-top: 3vh;
+  h2 {
+    text-align: center;
+    width: 6vw;
+    color: #ffffff;
+    font-size: 2em;
+  }
+}
+.container-1 div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.card {
+  align-items: flex-start;
+}
+.un-ordered-list ul {
+  list-style-type: none;
+  text-align: justify;
+  padding: 0;
+}
+
+.country-name {
+  h2 {
+    font-weight: 900;
+    width: 12vw;
+    font-size: 2vw;
+    overflow-wrap: break-word;
+    font-family: Raleway, sans-serif;
+  }
+}
+
+@media (max-width: 768px) {
+  .index-number {
+    width: 6vw;
+    height: 6vw;
+
+    border-radius: 50%;
+    h2 {
+      font-size: 4vw;
+    }
+  }
+
+  .country-flag {
+    img {
+      width: 40vw;
+      height: 15vh;
+    }
+  }
+
+  .container-1 {
+    width: 50vw;
+    height: 60vh;
+    margin-top: 1vh;
+  }
+}
